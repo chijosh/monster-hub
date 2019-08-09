@@ -1,7 +1,7 @@
 .card-container {
     display: flex;
     flex-direction: column;
-    background-color: #61f2f5;
+    background-color: #f4ff61;
     border: 1px solid grey;
     border-radius: 5px;
     padding: 25px;
@@ -10,8 +10,15 @@
     backface-visibility: hidden;
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
+
 }
 
 .card-container:hover {
     transform: scale(1.05);
+}
+
+h2 {
+    font-family: 'Lacquer',
+        sans-serif;
+    color: #8b0000
 }
